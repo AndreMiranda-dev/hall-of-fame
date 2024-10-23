@@ -6,7 +6,7 @@ Hall-of-fame helps you show some love to your contributors. It automatically hig
 
 ## How it works
 
-Every hour, Hall-of-fame looks into recent commits of your repo using GitHub API. It then selects three categories of contributors: new (those who made their first commit to your repo in the last 7 days), trending (those with most commits in the last 7 days), and top (those with most commits of all time). It then selects up to three new contributors, up to 4 trending contributors, and if total is less than 7, it fill up the remaining spots with top contributors.
+Every hour, Hall-of-fame looks into recent commits of your repo using GitHub API. It then selects three categories of contributors: new (those who made their first commit to your repo in the last 7 days), trending (those with most commits in the last 7 days), and top (those with most commits of all time). It then selects up to three new contributors, up to 4 trending contributors, and if the total is less than 7, it fills up the remaining spots with top contributors.
 
 Each contributor in the Hall-of-fame is represented with their avatar, and a badge new/trending/top with the corresponding number of commits. Each avatar links to a contributor's profile. Which means that anyone has a chance to be prominently featured on your README for some time!
 
@@ -65,7 +65,7 @@ Hall-of-fame code is entirely open source. You can run it in Google cloud yourse
 ```
 Paste that code into your README.md, and you should be good to go. Hall-of-fame will take care of the rest.
 
-Note that Hall-of-fame will use your GitHub token for hourly updates via GitHub API. This will count towards your GitHub API limit. For a very large repo, you shoud expect a few dozen requests every hour, which is a small percentage of 5,000 hourly limit that GitHub sets.
+Note that Hall-of-fame will use your GitHub token for hourly updates via GitHub API. This will count towards your GitHub API limit. For a very large repo, you should expect a few dozen requests every hour, which is a small percentage of 5,000 hourly limit that GitHub sets.
 
 ## FAQ
 
@@ -77,9 +77,9 @@ Note that Hall-of-fame will use your GitHub token for hourly updates via GitHub 
 
 **A:** We want Hall-of-fame to change frequently (hence emphasis on changes in the last week), and we want it to be immediately exciting for your first time contributors. You need new contributors, right? We better make them excited.
 
-**Q:** I just commited, and I don't see my face on Hall-of-fame! What is going on?
+**Q:** I just committed, and I don't see my face on Hall-of-fame! What is going on?
 
-**A:** It refreshes once an hour, and sometimes takes a bit longer. Just wait, it will be there. Another possibility is there are enough contributors with more commits this week. Contributors are sorted by the number of commits, so if you push another commit, you will increase your chance to show in Hall-of-fame.
+**A:** It refreshes once an hour, and sometimes takes a bit longer. Just wait, it will be there. Another possibility is there are enough contributors with more committs this week. Contributors are sorted by the number of commits, so if you push another commit, you will increase your chance to show in Hall-of-fame.
 
 ## Contributing
 
